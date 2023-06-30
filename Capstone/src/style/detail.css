@@ -1,0 +1,49 @@
+main{
+    height: 100vh;
+}
+
+.card {
+    max-height: 100% !important;
+}
+
+
+ .description-detail {
+    margin: 10px;
+    padding: 0px 30px 10px 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    /* white-space: nowrap;  */
+    overflow: none !important; 
+     text-overflow: ellipsis;
+     text-indent: 30px;
+     
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+
+
+.sub-title {
+
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  }
+
+  .sub-list{
+    padding-left: 30px;
+
+  }
+
+
+  .join-req{
+    margin-left: 10px !important;
+    /* align-items: end ; */
+    border-color: greenyellow;
+    background-color: greenyellow;
+    margin: 5px;
+    border-radius: 0.5rem;
+    text-align: justify;
+  }

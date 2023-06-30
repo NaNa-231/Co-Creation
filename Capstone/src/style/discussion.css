@@ -1,0 +1,28 @@
+main{
+    height: 100%;
+}
+
+.profile-detail {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+}
+.avatar {
+    grid-column: 1 / 2;
+    margin: 10px;
+}
+
+.name { 
+    grid-column: 2 / 3;
+  margin-top: 12px;
+  font-size: 16px;
+
+}
+
+.question {
+    margin: 0px 10px 10px 50px;
+}
+
+.cathegory-question {
+    margin-bottom: 3px !important;
+}
